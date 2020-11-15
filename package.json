@@ -4,6 +4,7 @@
   "description": "Managed setTimeout, setInterval, and setImmediate for JS",
   "main": "lib/index.js",
   "files": ["lib/**/*"],
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc",
     "prepack": "npm run build"
